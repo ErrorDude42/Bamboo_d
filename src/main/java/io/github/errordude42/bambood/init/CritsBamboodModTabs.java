@@ -26,6 +26,7 @@ public class CritsBamboodModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.crits_bambood.bambood")).icon(() -> new ItemStack(Blocks.BAMBOO)).displayItems((parameters, tabData) -> {
 				tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR.get());
 				tabData.accept(CritsBamboodModItems.BAMBOOSPEARIRON.get());
+				tabData.accept(CritsBamboodModItems.BAMBOOSPEARGOLD.get());
 			})
 
 					.build());
@@ -36,6 +37,7 @@ public class CritsBamboodModTabs {
 
 			tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR.get());
 			tabData.accept(CritsBamboodModItems.BAMBOOSPEARIRON.get());
+			tabData.accept(CritsBamboodModItems.BAMBOOSPEARGOLD.get());
 
 		}
 	}
