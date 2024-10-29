@@ -1,0 +1,76 @@
+{
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bamboo_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/bambood/item/TestItem.java",
+          "src/main/resources/assets/crits_bambood/models/item/bamboo_spear.json"
+        ]
+      }
+    },
+    {
+      "name": "Bamboospeariron",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bamboospeariron",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/bambood/item/BamboospearironItem.java",
+          "src/main/resources/assets/crits_bambood/models/item/bamboospeariron.json"
+        ]
+      }
+    },
+    {
+      "name": "Bambood",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bambood",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Bamboospeariron",
+      "~CUSTOM:Test"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.crits_bambood.bambood": "Crit\u0027s Bamboo\u0027d",
+      "item.crits_bambood.bamboospeariron": "Iron Tipped Bamboo Spear",
+      "item.crits_bambood.bamboo_spear": "Bamboo Spear"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "crits_bambood",
+    "modName": "Crit\u0027s Bamboo\u0027d",
+    "version": "1.0.0",
+    "author": "crtca, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "io.github.errordude42.bambood"
+  },
+  "mcreatorVersion": 202400342716
+}

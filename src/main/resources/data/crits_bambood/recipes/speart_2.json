@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:bamboo"
+  },
+  "base": {
+    "item": "crits_bambood:bamboo_spear"
+  },
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "item": "crits_bambood:bamboospeariron"
+  }
+}

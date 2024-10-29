@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="crits_bambood"
+version="0.0.2"
+displayName="Crit's Bamboo'd"
+displayURL="https://modrinth.com/organization/silly-willies"
+credits="Made by Silly Willies org"
+authors="Crit, Zomagon, P"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.crits_bambood]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Crit's Bamboo'd",
+    "icon": {
+      "value": "Blocks.BAMBOO"
+    },
+    "showSearch": false
+  }
+}
