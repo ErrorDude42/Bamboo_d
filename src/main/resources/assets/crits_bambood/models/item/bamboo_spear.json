@@ -1,7 +1,0 @@
-{
-  "parent": "crits_bambood:custom/bamboo_weapon_t1",
-  "textures": {
-    "2": "crits_bambood:block/bamboo_weapon_test",
-    "particle": "crits_bambood:item/bamboo_weapon_t1"
-  }
-}

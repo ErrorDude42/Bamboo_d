@@ -63,12 +63,27 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "Bamboospeargold",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bamboospeargold",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/bambood/item/BamboospeargoldItem.java",
+          "src/main/resources/assets/crits_bambood/models/item/bamboospeargold.json"
+        ]
+      },
+      "path": "~/Weapons"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Bamboospeargold",
       "~CUSTOM:Bamboospeariron",
       "~CUSTOM:Test"
     ]
@@ -78,6 +93,7 @@
     "en_us": {
       "item_group.crits_bambood.bambood": "Crit\u0027s Bamboo\u0027d",
       "item.crits_bambood.bamboospeariron": "Iron Tipped Bamboo Spear",
+      "item.crits_bambood.bamboospeargold": "Bamboospeargold",
       "item.crits_bambood.bamboo_spear": "Bamboo Spear"
     }
   },

@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "crits_bambood:bamboospeargold",
-    "crits_bambood:bamboospeariron",
-    "crits_bambood:bamboo_spear"
+    "crits_bambood:bamboospeargold"
   ]
 }

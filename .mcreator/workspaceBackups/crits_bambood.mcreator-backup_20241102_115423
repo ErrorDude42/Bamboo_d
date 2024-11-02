@@ -1,20 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Test",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bamboo_spear",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/errordude42/bambood/item/TestItem.java",
-          "src/main/resources/assets/crits_bambood/models/item/bamboo_spear.json"
-        ]
-      },
-      "path": "~/Weapons"
-    },
-    {
       "name": "Bamboospeariron",
       "type": "tool",
       "compiles": true,
@@ -63,14 +49,28 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "Bamboospeargold",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bamboospeargold",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/bambood/item/BamboospeargoldItem.java",
+          "src/main/resources/assets/crits_bambood/models/item/bamboospeargold.json"
+        ]
+      },
+      "path": "~/Weapons"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
-      "~CUSTOM:Bamboospeariron",
-      "~CUSTOM:Test"
+      "~CUSTOM:Bamboospeargold",
+      "~CUSTOM:Bamboospeariron"
     ]
   },
   "tab_element_order": {},
@@ -78,7 +78,7 @@
     "en_us": {
       "item_group.crits_bambood.bambood": "Crit\u0027s Bamboo\u0027d",
       "item.crits_bambood.bamboospeariron": "Iron Tipped Bamboo Spear",
-      "item.crits_bambood.bamboo_spear": "Bamboo Spear"
+      "item.crits_bambood.bamboospeargold": "Bamboospeargold"
     }
   },
   "foldersRoot": {
@@ -97,16 +97,17 @@
   "workspaceSettings": {
     "modid": "crits_bambood",
     "modName": "Crit\u0027s Bamboo\u0027d",
-    "version": "1.0.0",
-    "author": "crtca, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "version": "0.0.2",
+    "author": "Crit, Zomagon, P",
+    "websiteURL": "https://modrinth.com/organization/silly-willies",
+    "license": "MIT License",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Made by Silly Willies org",
     "modElementsPackage": "io.github.errordude42.bambood"
   },
   "mcreatorVersion": 202400342716

@@ -24,8 +24,6 @@ public class CritsBamboodModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CritsBamboodMod.MODID);
 	public static final RegistryObject<CreativeModeTab> BAMBOOD = REGISTRY.register("bambood",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.crits_bambood.bambood")).icon(() -> new ItemStack(Blocks.BAMBOO)).displayItems((parameters, tabData) -> {
-				tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR.get());
-				tabData.accept(CritsBamboodModItems.BAMBOOSPEARIRON.get());
 				tabData.accept(CritsBamboodModItems.BAMBOOSPEARGOLD.get());
 			})
 
@@ -35,8 +33,6 @@ public class CritsBamboodModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 
-			tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR.get());
-			tabData.accept(CritsBamboodModItems.BAMBOOSPEARIRON.get());
 			tabData.accept(CritsBamboodModItems.BAMBOOSPEARGOLD.get());
 
 		}
