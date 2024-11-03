@@ -134,13 +134,6 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\crtca\OneDrive\Documents\GitHub\Bamboo_d\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BamboospeargoldItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BamboospeargoldItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BamboospeargoldItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BamboospeargoldItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BamboospeargoldItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BamboospeargoldItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Adding extras
 Sorting
 Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Bamboo_d\build\reobfJar\output.jar
@@ -156,35 +149,17 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Bamboo_d\build\reobfJar
   assets/crits_bambood/models/custom/bamboo_weapon_t1.json
   assets/crits_bambood/models/custom/bamboo_weapon_t2.json
   assets/crits_bambood/models/custom/bamboo_weapon_test.json
-  assets/crits_bambood/models/item/
-  assets/crits_bambood/models/item/bamboospeargold.json
   assets/crits_bambood/textures/
-  assets/crits_bambood/textures/block/
-  assets/crits_bambood/textures/block/bamboo_spear_iron.png
-  assets/crits_bambood/textures/block/bamboo_weapon_test.png
   assets/crits_bambood/textures/item/
-  assets/crits_bambood/textures/item/bamboo_spear_iron.png
-  assets/crits_bambood/textures/item/bamboo_weapon_t1.png
-  assets/crits_bambood/textures/item/bamboo_weapon_t2.png
-  assets/crits_bambood/textures/item/bamboo_weapon_test.png
+  assets/crits_bambood/textures/item/bambooSpear.png
   data/
   data/crits_bambood/
   data/crits_bambood/recipes/
   data/crits_bambood/recipes/speart_1.json
   data/crits_bambood/recipes/speart_2.json
-  data/minecraft/
-  data/minecraft/tags/
-  data/minecraft/tags/items/
-  data/minecraft/tags/items/swords.json
   io/
   io/github/
   io/github/errordude42/
   io/github/errordude42/bambood/
   io/github/errordude42/bambood/CritsBamboodMod.class
-  io/github/errordude42/bambood/init/
-  io/github/errordude42/bambood/init/CritsBamboodModItems.class
-  io/github/errordude42/bambood/init/CritsBamboodModTabs.class
-  io/github/errordude42/bambood/item/
-  io/github/errordude42/bambood/item/BamboospeargoldItem$1.class
-  io/github/errordude42/bambood/item/BamboospeargoldItem.class
   pack.mcmeta

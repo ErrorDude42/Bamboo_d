@@ -1,34 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Test",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bamboo_spear",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/errordude42/bambood/item/TestItem.java",
-          "src/main/resources/assets/crits_bambood/models/item/bamboo_spear.json"
-        ]
-      },
-      "path": "~/Weapons"
-    },
-    {
-      "name": "Bamboospeariron",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bamboospeariron",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/errordude42/bambood/item/BamboospearironItem.java",
-          "src/main/resources/assets/crits_bambood/models/item/bamboospeariron.json"
-        ]
-      },
-      "path": "~/Weapons"
-    },
-    {
       "name": "Bambood",
       "type": "tab",
       "compiles": true,
@@ -83,18 +55,14 @@
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
-      "~CUSTOM:Bamboospeargold",
-      "~CUSTOM:Bamboospeariron",
-      "~CUSTOM:Test"
+      "~CUSTOM:Bamboospeargold"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item_group.crits_bambood.bambood": "Crit\u0027s Bamboo\u0027d",
-      "item.crits_bambood.bamboospeariron": "Iron Tipped Bamboo Spear",
-      "item.crits_bambood.bamboospeargold": "Bamboospeargold",
-      "item.crits_bambood.bamboo_spear": "Bamboo Spear"
+      "item.crits_bambood.bamboospeargold": "Bamboospeargold"
     }
   },
   "foldersRoot": {
