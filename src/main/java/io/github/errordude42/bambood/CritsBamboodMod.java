@@ -26,9 +26,6 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
-import io.github.errordude42.bambood.init.CritsBamboodModTabs;
-import io.github.errordude42.bambood.init.CritsBamboodModItems;
-
 @Mod("crits_bambood")
 public class CritsBamboodMod {
 	public static final Logger LOGGER = LogManager.getLogger(CritsBamboodMod.class);
@@ -39,10 +36,6 @@ public class CritsBamboodMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
-		CritsBamboodModItems.REGISTRY.register(bus);
-
-		CritsBamboodModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
