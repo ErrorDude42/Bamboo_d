@@ -1,0 +1,7 @@
+{
+  "parent": "crits_bambood:custom/bamboo_spear",
+  "textures": {
+    "1": "crits_bambood:block/bamboospear",
+    "particle": "crits_bambood:item/bamboo_spear"
+  }
+}

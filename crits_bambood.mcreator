@@ -35,15 +35,112 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "BambooSpear",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bamboo_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/crits_bambood/models/item/bamboo_spear.json",
+          "src/main/java/io/github/errordude42/bambood/item/BambooSpearItem.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "BambooSpearIron",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bamboo_spear_iron",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/bambood/item/BambooSpearIronItem.java",
+          "src/main/resources/assets/crits_bambood/models/item/bamboo_spear_iron.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "NoBlockDrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_block_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/bambood/procedures/NoBlockDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BambooSpearDiamond",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bamboo_spear_diamond",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/bambood/item/BambooSpearDiamondItem.java",
+          "src/main/resources/assets/crits_bambood/models/item/bamboo_spear_diamond.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "BambooSpearGold",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bamboo_spear_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/crits_bambood/models/item/bamboo_spear_gold.json",
+          "src/main/java/io/github/errordude42/bambood/item/BambooSpearGoldItem.java"
+        ]
+      },
+      "path": "~/Weapons"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BambooSpearGold",
+      "~CUSTOM:BambooSpearDiamond",
+      "~CUSTOM:BambooSpearIron",
+      "~CUSTOM:BambooSpear"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.crits_bambood.bambood": "Crit\u0027s Bamboo\u0027d"
+      "item_group.crits_bambood.bambood": "Crit\u0027s Bamboo\u0027d",
+      "item.crits_bambood.bamboo_spear_diamond": "Bamboo Spear Diamond",
+      "item.crits_bambood.bamboo_spear_iron": "Bamboo Spear Iron",
+      "item.crits_bambood.bamboo_spear_gold": "Bamboo Spear Diamond",
+      "item.crits_bambood.bamboo_spear": "Bamboo Spear"
     }
   },
   "foldersRoot": {

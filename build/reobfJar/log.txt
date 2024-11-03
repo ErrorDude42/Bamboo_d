@@ -134,6 +134,7 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\crtca\OneDrive\Documents\GitHub\Bamboo_d\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Adding extras
 Sorting
 Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Bamboo_d\build\reobfJar\output.jar
@@ -146,20 +147,46 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Bamboo_d\build\reobfJar
   assets/crits_bambood/lang/en_us.json
   assets/crits_bambood/models/
   assets/crits_bambood/models/custom/
-  assets/crits_bambood/models/custom/bamboo_weapon_t1.json
-  assets/crits_bambood/models/custom/bamboo_weapon_t2.json
-  assets/crits_bambood/models/custom/bamboo_weapon_test.json
+  assets/crits_bambood/models/custom/bamboo_spear.json
+  assets/crits_bambood/models/custom/bamboo_spear_diamond.json
+  assets/crits_bambood/models/custom/bamboo_spear_iron.json
+  assets/crits_bambood/models/item/
+  assets/crits_bambood/models/item/bamboo_spear.json
+  assets/crits_bambood/models/item/bamboo_spear_diamond.json
+  assets/crits_bambood/models/item/bamboo_spear_iron.json
   assets/crits_bambood/textures/
+  assets/crits_bambood/textures/block/
+  assets/crits_bambood/textures/block/bamboospear.png
   assets/crits_bambood/textures/item/
-  assets/crits_bambood/textures/item/bambooSpear.png
+  assets/crits_bambood/textures/item/bamboo_spear.png
+  assets/crits_bambood/textures/item/bamboo_spear_diamond.png
+  assets/crits_bambood/textures/item/bamboo_spear_iron.png
+  assets/crits_bambood/textures/item/bamboospear.png
+  assets/crits_bambood/textures/item/host_armor_trim_smithing_template.png
   data/
   data/crits_bambood/
   data/crits_bambood/recipes/
   data/crits_bambood/recipes/speart_1.json
   data/crits_bambood/recipes/speart_2.json
+  data/minecraft/
+  data/minecraft/tags/
+  data/minecraft/tags/items/
+  data/minecraft/tags/items/swords.json
   io/
   io/github/
   io/github/errordude42/
   io/github/errordude42/bambood/
   io/github/errordude42/bambood/CritsBamboodMod.class
+  io/github/errordude42/bambood/init/
+  io/github/errordude42/bambood/init/CritsBamboodModItems.class
+  io/github/errordude42/bambood/init/CritsBamboodModTabs.class
+  io/github/errordude42/bambood/item/
+  io/github/errordude42/bambood/item/BambooSpearDiamondItem$1.class
+  io/github/errordude42/bambood/item/BambooSpearDiamondItem.class
+  io/github/errordude42/bambood/item/BambooSpearIronItem$1.class
+  io/github/errordude42/bambood/item/BambooSpearIronItem.class
+  io/github/errordude42/bambood/item/BambooSpearItem$1.class
+  io/github/errordude42/bambood/item/BambooSpearItem.class
+  io/github/errordude42/bambood/procedures/
+  io/github/errordude42/bambood/procedures/NoBlockDropProcedure.class
   pack.mcmeta

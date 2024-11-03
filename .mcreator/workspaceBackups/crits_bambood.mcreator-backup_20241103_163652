@@ -1,0 +1,144 @@
+{
+  "mod_elements": [
+    {
+      "name": "Bambood",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bambood",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Speart1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speart_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crits_bambood/recipes/speart_1.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Speart2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speart_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crits_bambood/recipes/speart_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BambooSpear",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bamboo_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/crits_bambood/models/item/bamboo_spear.json",
+          "src/main/java/io/github/errordude42/bambood/item/BambooSpearItem.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "BambooSpearIron",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bamboo_spear_iron",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/bambood/item/BambooSpearIronItem.java",
+          "src/main/resources/assets/crits_bambood/models/item/bamboo_spear_iron.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "NoBlockDrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_block_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/bambood/procedures/NoBlockDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BambooSpearIron",
+      "~CUSTOM:BambooSpear"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.crits_bambood.bambood": "Crit\u0027s Bamboo\u0027d",
+      "item.crits_bambood.bamboo_spear_iron": "Bamboo Spear Iron",
+      "item.crits_bambood.bamboo_spear": "Bamboo Spear"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "crits_bambood",
+    "modName": "Crit\u0027s Bamboo\u0027d",
+    "version": "0.0.2",
+    "author": "Crit, Zomagon, P",
+    "websiteURL": "https://modrinth.com/organization/silly-willies",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Made by Silly Willies org",
+    "modElementsPackage": "io.github.errordude42.bambood"
+  },
+  "mcreatorVersion": 202400342716
+}
