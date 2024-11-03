@@ -10,10 +10,13 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import io.github.errordude42.bambood.item.BambooSpearTriangulumItem;
+import io.github.errordude42.bambood.item.BambooSpearNetheriteItem;
 import io.github.errordude42.bambood.item.BambooSpearItem;
 import io.github.errordude42.bambood.item.BambooSpearIronItem;
 import io.github.errordude42.bambood.item.BambooSpearGoldItem;
 import io.github.errordude42.bambood.item.BambooSpearDiamondItem;
+import io.github.errordude42.bambood.item.BambooSpearCopperItem;
 import io.github.errordude42.bambood.CritsBamboodMod;
 
 public class CritsBamboodModItems {
@@ -22,6 +25,9 @@ public class CritsBamboodModItems {
 	public static final RegistryObject<Item> BAMBOO_SPEAR_IRON = REGISTRY.register("bamboo_spear_iron", () -> new BambooSpearIronItem());
 	public static final RegistryObject<Item> BAMBOO_SPEAR_DIAMOND = REGISTRY.register("bamboo_spear_diamond", () -> new BambooSpearDiamondItem());
 	public static final RegistryObject<Item> BAMBOO_SPEAR_GOLD = REGISTRY.register("bamboo_spear_gold", () -> new BambooSpearGoldItem());
+	public static final RegistryObject<Item> BAMBOO_SPEAR_COPPER = REGISTRY.register("bamboo_spear_copper", () -> new BambooSpearCopperItem());
+	public static final RegistryObject<Item> BAMBOO_SPEAR_NETHERITE = REGISTRY.register("bamboo_spear_netherite", () -> new BambooSpearNetheriteItem());
+	public static final RegistryObject<Item> BAMBOO_SPEAR_TRIANGULUM = REGISTRY.register("bamboo_spear_triangulum", () -> new BambooSpearTriangulumItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

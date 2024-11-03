@@ -14,8 +14,8 @@ import net.minecraft.core.BlockPos;
 
 import io.github.errordude42.bambood.procedures.NoBlockDropProcedure;
 
-public class BambooSpearCopperItem extends SwordItem {
-	public BambooSpearCopperItem() {
+public class BambooSpearNetheriteItem extends SwordItem {
+	public BambooSpearNetheriteItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 100;
@@ -38,9 +38,9 @@ public class BambooSpearCopperItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
+				return Ingredient.of(new ItemStack(Items.NETHERITE_INGOT));
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -3f, new Item.Properties().fireResistant());
 	}
 
 	@Override

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "crits_bambood:bamboo_spear_triangulum",
+    "crits_bambood:bamboo_spear_netherite",
+    "crits_bambood:bamboo_spear_copper",
     "crits_bambood:bamboo_spear_gold",
     "crits_bambood:bamboo_spear_diamond",
     "crits_bambood:bamboo_spear_iron",

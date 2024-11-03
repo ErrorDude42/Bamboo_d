@@ -134,35 +134,7 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\crtca\OneDrive\Documents\GitHub\Bamboo_d\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearDiamondItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearDiamondItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearDiamondItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearDiamondItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearDiamondItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearDiamondItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearIronItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearIronItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearIronItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearIronItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearIronItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearIronItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearGoldItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/SwordItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z: mineBlock -> m_6813_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearDiamondItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/SwordItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z: mineBlock -> m_6813_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearGoldItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearGoldItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearIronItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/SwordItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z: mineBlock -> m_6813_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearGoldItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearGoldItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearGoldItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearGoldItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/SwordItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z: mineBlock -> m_6813_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for io/github/errordude42/bambood/item/BambooSpearItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Adding extras
 Sorting
 Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Bamboo_d\build\reobfJar\output.jar
@@ -178,20 +150,27 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Bamboo_d\build\reobfJar
   assets/crits_bambood/models/custom/bamboo_spear.json
   assets/crits_bambood/models/custom/bamboo_spear_diamond.json
   assets/crits_bambood/models/custom/bamboo_spear_iron.json
+  assets/crits_bambood/models/custom/throwable_bamboo_spear.json
   assets/crits_bambood/models/item/
   assets/crits_bambood/models/item/bamboo_spear.json
+  assets/crits_bambood/models/item/bamboo_spear_copper.json
   assets/crits_bambood/models/item/bamboo_spear_diamond.json
   assets/crits_bambood/models/item/bamboo_spear_gold.json
   assets/crits_bambood/models/item/bamboo_spear_iron.json
+  assets/crits_bambood/models/item/bamboo_spear_netherite.json
+  assets/crits_bambood/models/item/bamboo_spear_triangulum.json
   assets/crits_bambood/textures/
   assets/crits_bambood/textures/block/
   assets/crits_bambood/textures/block/bamboospear.png
   assets/crits_bambood/textures/item/
+  assets/crits_bambood/textures/item/bambooSpear.png
   assets/crits_bambood/textures/item/bamboo_spear.png
+  assets/crits_bambood/textures/item/bamboo_spear_copper.png
   assets/crits_bambood/textures/item/bamboo_spear_diamond.png
   assets/crits_bambood/textures/item/bamboo_spear_gold.png
   assets/crits_bambood/textures/item/bamboo_spear_iron.png
-  assets/crits_bambood/textures/item/bamboospear.png
+  assets/crits_bambood/textures/item/bamboo_spear_netherite.png
+  assets/crits_bambood/textures/item/bamboo_spear_triangulum.png
   assets/crits_bambood/textures/item/host_armor_trim_smithing_template.png
   data/
   data/crits_bambood/
@@ -211,6 +190,8 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Bamboo_d\build\reobfJar
   io/github/errordude42/bambood/init/CritsBamboodModItems.class
   io/github/errordude42/bambood/init/CritsBamboodModTabs.class
   io/github/errordude42/bambood/item/
+  io/github/errordude42/bambood/item/BambooSpearCopperItem$1.class
+  io/github/errordude42/bambood/item/BambooSpearCopperItem.class
   io/github/errordude42/bambood/item/BambooSpearDiamondItem$1.class
   io/github/errordude42/bambood/item/BambooSpearDiamondItem.class
   io/github/errordude42/bambood/item/BambooSpearGoldItem$1.class
@@ -219,6 +200,10 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Bamboo_d\build\reobfJar
   io/github/errordude42/bambood/item/BambooSpearIronItem.class
   io/github/errordude42/bambood/item/BambooSpearItem$1.class
   io/github/errordude42/bambood/item/BambooSpearItem.class
+  io/github/errordude42/bambood/item/BambooSpearNetheriteItem$1.class
+  io/github/errordude42/bambood/item/BambooSpearNetheriteItem.class
+  io/github/errordude42/bambood/item/BambooSpearTriangulumItem$1.class
+  io/github/errordude42/bambood/item/BambooSpearTriangulumItem.class
   io/github/errordude42/bambood/procedures/
   io/github/errordude42/bambood/procedures/NoBlockDropProcedure.class
   pack.mcmeta

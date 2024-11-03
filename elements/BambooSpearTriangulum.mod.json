@@ -5,8 +5,8 @@
     "toolType": "Sword",
     "renderType": 1,
     "blockingRenderType": 0,
-    "texture": "bamboo_spear_copper",
-    "customModelName": "bamboo_spear_copper:default",
+    "texture": "bamboo_spear_triangulum",
+    "customModelName": "bamboo_spear_triangulum:default",
     "blockingModelName": "Normal blocking",
     "name": "Bamboo Spear Diamond",
     "specialInformation": {
@@ -28,11 +28,7 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [
-      {
-        "value": "Items.COPPER_INGOT"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],

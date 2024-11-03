@@ -28,6 +28,9 @@ public class CritsBamboodModTabs {
 				tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_IRON.get());
 				tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_DIAMOND.get());
 				tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_GOLD.get());
+				tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_COPPER.get());
+				tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_NETHERITE.get());
+				tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_TRIANGULUM.get());
 			})
 
 					.build());
@@ -40,6 +43,9 @@ public class CritsBamboodModTabs {
 			tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_IRON.get());
 			tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_DIAMOND.get());
 			tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_GOLD.get());
+			tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_COPPER.get());
+			tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_NETHERITE.get());
+			tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_TRIANGULUM.get());
 
 		}
 	}

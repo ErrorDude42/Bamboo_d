@@ -6,7 +6,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
@@ -14,8 +13,8 @@ import net.minecraft.core.BlockPos;
 
 import io.github.errordude42.bambood.procedures.NoBlockDropProcedure;
 
-public class BambooSpearCopperItem extends SwordItem {
-	public BambooSpearCopperItem() {
+public class BambooSpearTriangulumItem extends SwordItem {
+	public BambooSpearTriangulumItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 100;
@@ -38,7 +37,7 @@ public class BambooSpearCopperItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.COPPER_INGOT));
+				return Ingredient.of();
 			}
 		}, 3, -3f, new Item.Properties());
 	}
