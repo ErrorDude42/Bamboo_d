@@ -14,8 +14,8 @@ import net.minecraft.core.BlockPos;
 
 import io.github.errordude42.bambood.procedures.NoBlockDropProcedure;
 
-public class BambooSpearGoldItem extends SwordItem {
-	public BambooSpearGoldItem() {
+public class BambooSpearCopperItem extends SwordItem {
+	public BambooSpearCopperItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 100;

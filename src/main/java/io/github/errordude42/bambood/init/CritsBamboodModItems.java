@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import io.github.errordude42.bambood.item.BambooSpearItem;
 import io.github.errordude42.bambood.item.BambooSpearIronItem;
+import io.github.errordude42.bambood.item.BambooSpearGoldItem;
 import io.github.errordude42.bambood.item.BambooSpearDiamondItem;
 import io.github.errordude42.bambood.CritsBamboodMod;
 
@@ -20,6 +21,7 @@ public class CritsBamboodModItems {
 	public static final RegistryObject<Item> BAMBOO_SPEAR = REGISTRY.register("bamboo_spear", () -> new BambooSpearItem());
 	public static final RegistryObject<Item> BAMBOO_SPEAR_IRON = REGISTRY.register("bamboo_spear_iron", () -> new BambooSpearIronItem());
 	public static final RegistryObject<Item> BAMBOO_SPEAR_DIAMOND = REGISTRY.register("bamboo_spear_diamond", () -> new BambooSpearDiamondItem());
+	public static final RegistryObject<Item> BAMBOO_SPEAR_GOLD = REGISTRY.register("bamboo_spear_gold", () -> new BambooSpearGoldItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }
