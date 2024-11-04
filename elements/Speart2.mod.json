@@ -11,7 +11,7 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smithingInputStack": {
-      "value": "CUSTOM:Test"
+      "value": "CUSTOM:BambooSpear"
     },
     "smithingInputAdditionStack": {
       "value": "Items.IRON_INGOT"
@@ -20,7 +20,7 @@
       "value": "Blocks.BAMBOO"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:Bamboospeariron"
+      "value": "CUSTOM:BambooSpearIron"
     },
     "name": "speart_2",
     "namespace": "mod"

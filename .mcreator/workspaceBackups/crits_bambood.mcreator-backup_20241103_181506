@@ -48,7 +48,7 @@
           "src/main/java/io/github/errordude42/bambood/item/BambooSpearItem.java"
         ]
       },
-      "path": "~/Items/Weapons"
+      "path": "~/Weapons"
     },
     {
       "name": "BambooSpearIron",
@@ -62,7 +62,7 @@
           "src/main/resources/assets/crits_bambood/models/item/bamboo_spear_iron.json"
         ]
       },
-      "path": "~/Items/Weapons"
+      "path": "~/Weapons"
     },
     {
       "name": "NoBlockDrop",
@@ -106,7 +106,7 @@
           "src/main/resources/assets/crits_bambood/models/item/bamboo_spear_diamond.json"
         ]
       },
-      "path": "~/Items/Weapons"
+      "path": "~/Weapons"
     },
     {
       "name": "BambooSpearGold",
@@ -120,7 +120,7 @@
           "src/main/java/io/github/errordude42/bambood/item/BambooSpearGoldItem.java"
         ]
       },
-      "path": "~/Items/Weapons"
+      "path": "~/Weapons"
     },
     {
       "name": "BambooSpearCopper",
@@ -134,7 +134,7 @@
           "src/main/resources/assets/crits_bambood/models/item/bamboo_spear_copper.json"
         ]
       },
-      "path": "~/Items/Weapons"
+      "path": "~/Weapons"
     },
     {
       "name": "BambooSpearNetherite",
@@ -148,7 +148,7 @@
           "src/main/resources/assets/crits_bambood/models/item/bamboo_spear_netherite.json"
         ]
       },
-      "path": "~/Items/Weapons"
+      "path": "~/Weapons"
     },
     {
       "name": "BambooSpearTriangulum",
@@ -162,7 +162,7 @@
           "src/main/resources/assets/crits_bambood/models/item/bamboo_spear_triangulum.json"
         ]
       },
-      "path": "~/Items/Weapons"
+      "path": "~/Weapons"
     }
   ],
   "variable_elements": [],
@@ -195,17 +195,12 @@
     "name": "~",
     "children": [
       {
-        "name": "Recipes",
+        "name": "Weapons",
         "children": []
       },
       {
-        "name": "Items",
-        "children": [
-          {
-            "name": "Weapons",
-            "children": []
-          }
-        ]
+        "name": "Recipes",
+        "children": []
       }
     ]
   },
