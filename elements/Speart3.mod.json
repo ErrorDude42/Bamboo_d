@@ -1,0 +1,28 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "TAG:bambood:diamond_upgradable"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.DIAMOND"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:BambooUpgradeTemplate"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:BambooSpearDiamond"
+    },
+    "name": "speart_3",
+    "namespace": "mod"
+  }
+}

@@ -31,6 +31,7 @@ public class CritsBamboodModTabs {
 				tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_COPPER.get());
 				tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_NETHERITE.get());
 				tabData.accept(CritsBamboodModItems.BAMBOO_SPEAR_TRIANGULUM.get());
+				tabData.accept(CritsBamboodModItems.BAMBOO_UPGRADE_TEMPLATE.get());
 			})
 
 					.build());

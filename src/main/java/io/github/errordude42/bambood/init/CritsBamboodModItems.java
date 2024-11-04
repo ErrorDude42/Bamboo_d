@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import io.github.errordude42.bambood.item.BambooUpgradeTemplateItem;
 import io.github.errordude42.bambood.item.BambooSpearTriangulumItem;
 import io.github.errordude42.bambood.item.BambooSpearNetheriteItem;
 import io.github.errordude42.bambood.item.BambooSpearItem;
@@ -28,6 +29,7 @@ public class CritsBamboodModItems {
 	public static final RegistryObject<Item> BAMBOO_SPEAR_COPPER = REGISTRY.register("bamboo_spear_copper", () -> new BambooSpearCopperItem());
 	public static final RegistryObject<Item> BAMBOO_SPEAR_NETHERITE = REGISTRY.register("bamboo_spear_netherite", () -> new BambooSpearNetheriteItem());
 	public static final RegistryObject<Item> BAMBOO_SPEAR_TRIANGULUM = REGISTRY.register("bamboo_spear_triangulum", () -> new BambooSpearTriangulumItem());
+	public static final RegistryObject<Item> BAMBOO_UPGRADE_TEMPLATE = REGISTRY.register("bamboo_upgrade_template", () -> new BambooUpgradeTemplateItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

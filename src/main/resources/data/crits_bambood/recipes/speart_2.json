@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "template": {
-    "item": "minecraft:bamboo"
+    "item": "crits_bambood:bamboo_upgrade_template"
   },
   "base": {
     "item": "crits_bambood:bamboo_spear"

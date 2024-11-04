@@ -4,11 +4,13 @@ license="MIT License"
 
 [[mods]]
 modId="crits_bambood"
-version="0.0.2"
+version="0.0.3"
 displayName="Crit's Bamboo'd"
 displayURL="https://modrinth.com/organization/silly-willies"
+logoFile="logo.png"
 credits="Made by Silly Willies org"
 authors="Crit, Zomagon, P"
+description="This mod is bamboo centered, with items like the Bamboo staff, different bamboo foods, and many more to come"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
@@ -20,6 +22,12 @@ authors="Crit, Zomagon, P"
     ordering="AFTER"
     side="BOTH"
 
+[[dependencies.crits_bambood]]
+    modId="silly_willy_core"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "crits_bambood:bamboo_upgrade_template"
+  },
+  "base": {
+    "item": "crits_bambood:bamboo_spear"
+  },
+  "addition": {
+    "item": "minecraft:copper_ingot"
+  },
+  "result": {
+    "item": "crits_bambood:bamboo_spear_copper"
+  }
+}
