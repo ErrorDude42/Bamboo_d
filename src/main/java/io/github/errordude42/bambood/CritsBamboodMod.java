@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import io.github.errordude42.bambood.init.CritsBamboodModTabs;
+import io.github.errordude42.bambood.init.CritsBamboodModMenus;
 import io.github.errordude42.bambood.init.CritsBamboodModItems;
 
 @Mod("crits_bambood")
@@ -43,6 +44,8 @@ public class CritsBamboodMod {
 		CritsBamboodModItems.REGISTRY.register(bus);
 
 		CritsBamboodModTabs.REGISTRY.register(bus);
+
+		CritsBamboodModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

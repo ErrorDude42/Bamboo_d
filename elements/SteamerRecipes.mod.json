@@ -1,0 +1,16 @@
+{
+  "_fv": 69,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "bamboo_steamer_gui.png",
+    "width": 0,
+    "height": 0,
+    "icon": {
+      "value": "Blocks.FURNACE"
+    },
+    "craftingtables": [],
+    "enableCraftingtable": false,
+    "title": "Steamer Recipes",
+    "slotList": []
+  }
+}
