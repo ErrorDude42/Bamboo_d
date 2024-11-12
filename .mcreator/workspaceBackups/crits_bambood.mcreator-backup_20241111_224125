@@ -252,6 +252,19 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "SteamerRecipes",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steamer_recipes",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/errordude42/bambood/jei_recipes/SteamerRecipesRecipeCategory.java",
+          "src/main/java/io/github/errordude42/bambood/jei_recipes/SteamerRecipesRecipe.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],

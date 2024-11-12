@@ -17,15 +17,15 @@ public class BambooSpearTriangulumItem extends SwordItem {
 	public BambooSpearTriangulumItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 3032;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 1f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 8f;
 			}
 
 			public int getLevel() {
@@ -33,13 +33,13 @@ public class BambooSpearTriangulumItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 27;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -2f, new Item.Properties());
 	}
 
 	@Override

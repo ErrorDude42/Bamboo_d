@@ -18,11 +18,11 @@ public class BambooSpearItem extends SwordItem {
 	public BambooSpearItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 70;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 1.5f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -34,13 +34,13 @@ public class BambooSpearItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Blocks.BAMBOO));
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -3.5f, new Item.Properties());
 	}
 
 	@Override

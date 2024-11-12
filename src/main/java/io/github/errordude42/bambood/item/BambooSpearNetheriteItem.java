@@ -18,7 +18,7 @@ public class BambooSpearNetheriteItem extends SwordItem {
 	public BambooSpearNetheriteItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 2032;
 			}
 
 			public float getSpeed() {
@@ -34,13 +34,13 @@ public class BambooSpearNetheriteItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.NETHERITE_INGOT));
 			}
-		}, 3, -3f, new Item.Properties().fireResistant());
+		}, 3, 7f, new Item.Properties().fireResistant());
 	}
 
 	@Override

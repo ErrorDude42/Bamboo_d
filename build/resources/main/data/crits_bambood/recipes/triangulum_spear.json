@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "template": {
-    "item": "crits_bambood:bamboo_upgrade_template"
+    "item": "silly_willy_core:triangulum_upgrade_template"
   },
   "base": {
     "item": "crits_bambood:bamboo_spear_diamond"

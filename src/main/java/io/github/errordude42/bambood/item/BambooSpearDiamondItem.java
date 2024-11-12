@@ -18,7 +18,7 @@ public class BambooSpearDiamondItem extends SwordItem {
 	public BambooSpearDiamondItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 1561;
 			}
 
 			public float getSpeed() {
@@ -26,7 +26,7 @@ public class BambooSpearDiamondItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 5f;
 			}
 
 			public int getLevel() {
@@ -34,13 +34,13 @@ public class BambooSpearDiamondItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.DIAMOND));
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -2.8f, new Item.Properties());
 	}
 
 	@Override

@@ -15,16 +15,13 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:Bambood"
-      },
-      {
-        "value": "COMBAT"
       }
     ],
-    "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "efficiency": 1.0,
+    "attackSpeed": 2.0,
+    "enchantability": 27,
+    "damageVsEntity": 12.0,
+    "usageCount": 3032,
     "glowCondition": {
       "fixedValue": false
     },
