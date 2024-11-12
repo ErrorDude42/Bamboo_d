@@ -200,6 +200,7 @@ Writing Output: C:\Users\crtca\OneDrive\Documents\GitHub\Bamboo_d\build\reobfJar
   data/bambood/tags/items/spear.json
   data/crits_bambood/
   data/crits_bambood/recipes/
+  data/crits_bambood/recipes/bamboo_upgrade.json
   data/crits_bambood/recipes/spear_copper.json
   data/crits_bambood/recipes/speargold.json
   data/crits_bambood/recipes/speart_1.json
