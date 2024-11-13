@@ -356,9 +356,7 @@
     "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "bamboo_spear",
-    "requiredMods": [
-      "silly_willy_core"
-    ],
+    "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [

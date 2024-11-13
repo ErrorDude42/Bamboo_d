@@ -265,6 +265,19 @@
           "src/main/java/io/github/errordude42/bambood/jei_recipes/SteamerRecipesRecipe.java"
         ]
       }
+    },
+    {
+      "name": "BambooUpgrade",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bamboo_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/crits_bambood/recipes/bamboo_upgrade.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -343,9 +356,7 @@
     "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "bamboo_spear",
-    "requiredMods": [
-      "silly_willy_core"
-    ],
+    "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
