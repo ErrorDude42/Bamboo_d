@@ -267,17 +267,17 @@
       }
     },
     {
-      "name": "JungleTempleEdit",
-      "type": "loottable",
+      "name": "BambooUpgrade",
+      "type": "recipe",
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "jungle_temple_edit",
+      "locked_code": false,
+      "registry_name": "bamboo_upgrade",
       "metadata": {
         "files": [
-          "src/main/resources/data/crits_bambood/loot_tables/blocks/jungle_temple_edit.json"
+          "src/main/resources/data/crits_bambood/recipes/bamboo_upgrade.json"
         ]
       },
-      "path": "~/Loot tables"
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -356,9 +356,7 @@
     "license": "MIT License",
     "serverSideOnly": false,
     "modPicture": "bamboo_spear",
-    "requiredMods": [
-      "silly_willy_core"
-    ],
+    "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
